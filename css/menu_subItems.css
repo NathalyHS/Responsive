@@ -1,0 +1,61 @@
+/*--Autor: Nathalia Hernández Santos--*/
+h1{
+    text-align: center;  
+    color: #2906B2;  
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    list-style: none;
+    cursor: pointer;    
+    padding: 0;
+}
+nav li{
+    line-height: 3em;
+    position: relative;
+}
+nav a{
+    text-decoration: none;
+    color: #B2FEFA;
+    padding: 0 2.5em;
+    display: block;
+    transition: .4s;
+}
+.menu{
+    width: 100%;
+    background: #4A00E0;
+    display: table;
+}
+.menu ul{
+    position: absolute;
+}
+.menu  > li {
+    float: left;
+    width: 180px;
+}
+nav a:hover{
+    background:#00c6ff;
+}
+/*Segundo Nivel*/
+nav li li{
+    background-color: #0072ff;
+    font-size: .9em;
+    text-align: center;
+    width: 180px;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .5s;
+}
+nav li:hover > ul > li{
+    max-height: 500px;
+    overflow: visible;
+}
+.menu > li > ul{
+    top: 100%;
+}
+/*Tercer Nivel*/
+.menu ul ul{
+    left: 100%;
+    top: 0;
+}

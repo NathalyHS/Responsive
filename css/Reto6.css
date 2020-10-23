@@ -1,0 +1,44 @@
+/*--Autor: Nathalia Hernández Santos--*/
+h1{
+    text-align: center;
+}
+.contenedor{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+.conte1{
+    background-color: #41295a;
+    width: 100px;
+    height: 100px; 
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.conte2{
+    background-color:#33001b;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.conte3{
+    background-color:#AA076B;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
+.conte4{
+    background-color:#61045f;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 100px;
+    top: 300px;
+}

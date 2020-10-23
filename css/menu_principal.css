@@ -1,0 +1,96 @@
+/*--Autor: Nathalia Hernández Santos--*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    position: absolute; 
+    top: 8px;
+    left: 10px;
+}
+h1{
+    text-align: left;
+    display: block;
+    color:white;
+    font-size: 1.8em;
+}
+.menu-icon{
+    color:#d04ed6;
+    float: right;
+}
+header{
+    width: 100%;
+}
+header nav{
+    width: 100%;
+    background:#C779D0;
+   /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to right, #C779D0, #e100ff);
+   /* chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C779D0,  #e100ff);
+   /*W3C, IE 10+/ Edge, Firefox 16+ Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+header nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+header nav ul li{
+    display: inline-block;
+    position: relative;
+}
+header nav ul li .children{
+    display: none;
+}
+header nav ul li:hover{
+    background-color:#f857a6;
+}
+header nav ul li:hover .children{
+    display: block;
+    text-align: left;
+    position: absolute;
+    background-color:#ec38bc;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 10px;
+    width: 110px;
+    text-align: center;
+}
+span{
+    margin-right: 5px;
+}
+.main-content{
+    margin: 2em;
+    text-align: justify;
+}
+/* movil y table -menu */
+@media screen and (max-width:850px){
+    .titulo{
+        z-index: 2;
+    }
+    h1{
+        color:#7303c0;
+    }
+    header nav{
+        width: 80%;
+        position: fixed;
+        /*right: 100%;*/
+        height: calc(100% - 80px);
+        background-color: white; 
+    }
+    header nav ul{
+        display: block;
+        width: 100%;
+        background-color:white;
+    }
+    header nav ul li{
+        display: block;
+    }
+    header nav ul li a{
+        display: block;
+        color: #7303c0;
+    }
+}

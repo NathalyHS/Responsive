@@ -1,0 +1,35 @@
+/*--Autor: Nathalia Hernández Santos--*/
+h1{
+    text-align: center;
+}
+.contenedor{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+.conte1{
+    background-color: #c471ed;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.conte2{
+    background-color:#7f00ff;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.conte3{
+    background-color:#e100ff;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.conte4{
+    background-color:purple;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
